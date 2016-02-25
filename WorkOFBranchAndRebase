@@ -1,0 +1,27 @@
+Branch:-
+branches are just pointers to commits. When we create a branch, Git creates a new pointer.
+In Git, branches are a part of our everyday development process. when we want to add a new feature or fix a bug, no matter how big or how small, we spawn a new branch to encapsulate our changes.
+Following is the syntax to create a branch:
+
+$git branch <branch-name>
+
+To switch from one branch to another use:
+
+$git checkout <branch-name>
+
+These two operations can be performed in a single command:
+
+$git checkout -b <new-branch>
+
+The git merge command let us take the independent lines of development created by git branch and integrate them into a single branch.
+
+
+Rebase:-
+Rebasing is the process of moving a branch to a new base commit. 
+Following command is use to rebase current branch onto <base> branch
+git rebase <base>
+
+The primary reason for rebasing is to maintain a linear project history. For example, consider a situation where the master branch has progressed since we started working on a feature. We have two options for integrating our feature into the master branch: 1) merging directly or 2) rebasing and then merging. The former option results in a 3-way merge and a merge commit, while the latter results in a fast-forward merge and a perfectly linear history. Running git rebase with the -i flag begins an interactive rebasing session. Instead of blindly moving all of the commits to the new base, interactive rebasing gives us the opportunity to alter individual commits in the process. 
+
+Command to begin interactive session:
+git rebase -i <base>
