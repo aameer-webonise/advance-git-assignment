@@ -1,0 +1,94 @@
+a785980 HEAD@{0}: commit: pushing master
+effe05e HEAD@{1}: checkout: moving from master to master
+effe05e HEAD@{2}: merge A: Merge made by the 'recursive' strategy.
+8f64005 HEAD@{3}: merge second: Fast-forward
+4dc3307 HEAD@{4}: merge first: Fast-forward
+f7993a4 HEAD@{5}: checkout: moving from second to master
+8f64005 HEAD@{6}: rebase finished: returning to refs/heads/second
+8f64005 HEAD@{7}: rebase: branch second commit
+4dc3307 HEAD@{8}: rebase: checkout first
+98a7431 HEAD@{9}: commit: branch second commit
+2a177f3 HEAD@{10}: checkout: moving from first to second
+4dc3307 HEAD@{11}: commit: branch first commit
+9be537b HEAD@{12}: checkout: moving from first to first
+9be537b HEAD@{13}: rebase finished: returning to refs/heads/first
+9be537b HEAD@{14}: rebase: commit of branch first
+2a177f3 HEAD@{15}: rebase: checkout second
+2ebd981 HEAD@{16}: checkout: moving from second to first
+2a177f3 HEAD@{17}: rebase: aborting
+2ebd981 HEAD@{18}: rebase: checkout first
+2a177f3 HEAD@{19}: commit: commit of branch second
+221d0e2 HEAD@{20}: checkout: moving from first to second
+2ebd981 HEAD@{21}: commit: commit of branch first
+709b150 HEAD@{22}: checkout: moving from second to first
+221d0e2 HEAD@{23}: rebase finished: returning to refs/heads/second
+221d0e2 HEAD@{24}: rebase: cake is true
+709b150 HEAD@{25}: rebase: checkout first
+cf1a488 HEAD@{26}: commit: cake is true
+f7993a4 HEAD@{27}: checkout: moving from master to second
+f7993a4 HEAD@{28}: checkout: moving from first to master
+709b150 HEAD@{29}: commit: cake is lie
+f7993a4 HEAD@{30}: checkout: moving from master to first
+f7993a4 HEAD@{31}: checkout: moving from A to master
+d205f46 HEAD@{32}: rebase finished: returning to refs/heads/A
+d205f46 HEAD@{33}: rebase: changes in t
+1cd9825 HEAD@{34}: rebase: checkout B
+a0b47b0 HEAD@{35}: checkout: moving from B to A
+1cd9825 HEAD@{36}: commit: changes in t
+f7993a4 HEAD@{37}: checkout: moving from master to B
+f7993a4 HEAD@{38}: checkout: moving from A to master
+a0b47b0 HEAD@{39}: commit: changes in t
+f7993a4 HEAD@{40}: checkout: moving from master to A
+f7993a4 HEAD@{41}: checkout: moving from master to master
+f7993a4 HEAD@{42}: checkout: moving from develop to master
+f7993a4 HEAD@{43}: checkout: moving from master to develop
+f7993a4 HEAD@{44}: rebase finished: returning to refs/heads/master
+f7993a4 HEAD@{45}: rebase: checkout develop
+46f2798 HEAD@{46}: checkout: moving from develop to master
+f7993a4 HEAD@{47}: rebase -i (finish): returning to refs/heads/develop
+f7993a4 HEAD@{48}: rebase -i (start): checkout master
+f7993a4 HEAD@{49}: rebase -i (finish): returning to refs/heads/develop
+f7993a4 HEAD@{50}: rebase -i (reword): Added in develop to conflict
+56a3b52 HEAD@{51}: cherry-pick: fast-forward
+46f2798 HEAD@{52}: rebase -i (start): checkout master
+56a3b52 HEAD@{53}: commit: Added in develop for conflict
+46f2798 HEAD@{54}: merge master: Fast-forward
+07b7e2c HEAD@{55}: checkout: moving from master to develop
+46f2798 HEAD@{56}: commit: Added in master for conflict
+291eb4c HEAD@{57}: merge develop: Merge made by the 'recursive' strategy.
+dc8ed55 HEAD@{58}: commit: added file
+11887c1 HEAD@{59}: checkout: moving from develop to master
+07b7e2c HEAD@{60}: commit: added sample.txt
+11887c1 HEAD@{61}: checkout: moving from master to develop
+11887c1 HEAD@{62}: merge develop: Fast-forward
+79b188a HEAD@{63}: checkout: moving from develop to master
+11887c1 HEAD@{64}: checkout: moving from develop to develop
+11887c1 HEAD@{65}: commit: added sample to develop branch for confliction
+79b188a HEAD@{66}: merge master: Fast-forward
+4f68d07 HEAD@{67}: checkout: moving from master to develop
+79b188a HEAD@{68}: commit: Sample file added to conflict
+a84de24 HEAD@{69}: merge feature: Fast-forward
+6907b46 HEAD@{70}: checkout: moving from feature to master
+a84de24 HEAD@{71}: rebase -i (finish): returning to refs/heads/feature
+a84de24 HEAD@{72}: rebase -i (reword): fix something from last commit
+16f6c42 HEAD@{73}: cherry-pick: fast-forward
+a3657d7 HEAD@{74}: rebase -i (start): checkout master
+16f6c42 HEAD@{75}: rebase -i (finish): returning to refs/heads/feature
+16f6c42 HEAD@{76}: rebase -i (pick): some fix
+a3657d7 HEAD@{77}: rebase -i (pick): start developing a feature
+6907b46 HEAD@{78}: rebase -i (start): checkout master
+48d2e93 HEAD@{79}: checkout: moving from master to feature
+6907b46 HEAD@{80}: checkout: moving from master to master
+6907b46 HEAD@{81}: commit: fix security hole
+4f68d07 HEAD@{82}: checkout: moving from feature to master
+48d2e93 HEAD@{83}: checkout: moving from master to feature
+4f68d07 HEAD@{84}: checkout: moving from feature to master
+48d2e93 HEAD@{85}: commit: some fix
+b15fc0a HEAD@{86}: commit: start developing a feature
+4f68d07 HEAD@{87}: checkout: moving from master to feature
+4f68d07 HEAD@{88}: merge develop: Fast-forward
+91ff9cd HEAD@{89}: checkout: moving from develop to master
+4f68d07 HEAD@{90}: commit: add myfile.txt
+91ff9cd HEAD@{91}: checkout: moving from master to develop
+91ff9cd HEAD@{92}: commit (initial): add readme.txt
+
